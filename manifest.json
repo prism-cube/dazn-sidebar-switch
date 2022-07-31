@@ -3,12 +3,17 @@
     "action": {},
     "manifest_version": 3,
     "version": "0.1",
-    "description": "Turns the page red when you click the icon",
+    "description": "DAZNでメンバー一覧・スタッツ・フォーメーションが表示されているサイドバーの表示・非表示を切り替えるChrome拡張機能",
     "permissions": [
       "activeTab",
       "scripting"
     ],
     "background": {
         "service_worker": "background.js"
-    }
+    },
+	"icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  }
 }

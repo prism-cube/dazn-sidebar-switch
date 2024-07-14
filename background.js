@@ -1,6 +1,6 @@
 const toggleSideBar = () => {
   const main = document.querySelector('main');
-  const sideBar = document.querySelector('aside');
+  const sideBar = main.nextElementSibling;
   if (!main || !sideBar) {
     return;
   }
